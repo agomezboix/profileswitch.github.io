@@ -1,0 +1,21 @@
+Fingerprint attribute weights
+									Desktop/laptop machines					
+Attribute						Entropy Normalized_Entropy	Weight
+
+Platform 						0.489 	0.024 				0.015
+Do Not Track 					1.922 	0.092 				0.058
+Timezone 						0.096 	0.005 				0.003
+List of plugins 				10.281 	0.494 				0.310
+Use of local/session storage 	0.042 	0.002 				0.001
+Use of an ad blocker 			0.042 	0.002 				0.001
+WebGL Vendor 					1.82 	0.088 				-
+WebGL Renderer 					5.278 	0.254 				-
+Available fonts 				6.967 	0.335 				0.210
+Canvas 							8.043 	0.387 				-
+Header Accept 					0.776 	0.037 				-
+Content encoding 				0.153 	0.007 				-
+Content language 				2.559 	0.123 				0.077
+User-agent 						6.323 	0.304 				0.191
+Screen resolution 				4.437 	0.213 				0.134
+List of HTTP headers 			1.521 	0.073 				-
+Cookies enabled 				0 		0.000 				-
