@@ -1,0 +1,20 @@
+###configuration file
+# .. a setting
+# <setting>=<value>
+# string separator "
+# map {}
+# delimiter ,
+
+
+# stores all the configurations (browser fingerprints) to adopt, csv file format, absolute path
+..dataPath="src\main\resources\recommended\"
+
+#if the OS version if not recognized it will be used the os by default
+..defaultOS={"windows":"windows_10",
+			"macosx":"macosx_10.12",
+            "macos":"macosx_10.12",
+            "linux":"linux",
+            "ubuntu":"linux"}
+
+# :)
+..emptyValue="empty"
