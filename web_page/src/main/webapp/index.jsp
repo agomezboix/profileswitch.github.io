@@ -47,51 +47,7 @@
                 canvasCell.appendChild(img);
 
             }
-
-            function displayBCOMCanvas() {
-                var tableRef = document.getElementById("fptable");
-                var newRow = tableRef.insertRow(-1);
-
-                let attCell = newRow.insertCell(0);
-                let attText = document.createTextNode('Canvas');
-                attCell.appendChild(attText);
-
-                var canvasCell = newRow.insertCell(1);
-                var img = new Image();
-                img.src = BCOMCanvas;
-                canvasCell.appendChild(img);
-
-            }
-            function displayBCOMCanvas1() {
-                var tableRef = document.getElementById("fptable");
-                var newRow = tableRef.insertRow(-1);
-
-                let attCell = newRow.insertCell(0);
-                let attText = document.createTextNode('Canvas');
-                attCell.appendChild(attText);
-
-                var canvasCell = newRow.insertCell(1);
-                var img = new Image();
-                img.src = BCOMCanvas1;
-                canvasCell.appendChild(img);
-
-            }
-
-            function displayBCOMCanvas2() {
-                var tableRef = document.getElementById("fptable");
-                var newRow = tableRef.insertRow(-1);
-
-                let attCell = newRow.insertCell(0);
-                let attText = document.createTextNode('Canvas');
-                attCell.appendChild(attText);
-
-                var canvasCell = newRow.insertCell(1);
-                var img = new Image();
-                img.src = BCOMCanvas2;
-                canvasCell.appendChild(img);
-
-            }
-
+          
             function addRow(att, value) {
                 // Get a reference to the table
                 let tableRef = document.getElementById("fptable");
